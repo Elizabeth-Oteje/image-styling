@@ -1,0 +1,24 @@
+img{
+  
+}
+
+.desc {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.polaroid{
+
+    width: 200px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    filter: grayscale();
+}
